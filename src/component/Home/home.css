@@ -1,0 +1,161 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bs-bg-color1:#d8141a;
+    --bs-bg-color2:#fee1e3;
+    --bs-bg-color3:#b96a6c;
+    --bs-bg-color4:#920005;
+    --bs-bg-color5:#faf6f5;
+    --bs-bg-color6:#575757;    
+}
+.link{
+    color: var(--bs-bg-color6);
+}
+.link .active{
+    color: #b96a6c;
+}
+.link:hover{
+    color: var(--bs-bg-color1);
+}
+.img-logo{
+    width: 100%;
+}
+.banner{
+    /* background-image:  url(img/tierra-mallorca-NpTbVOkkom8-unsplash.jpg); */
+    background-image:  url(../assets/img/tierra-mallorca-NpTbVOkkom8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.banner::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    top: 0;
+    right: 0;
+    background: black;
+    opacity: .5;
+    clip-path: polygon(65% 0, 100% 0%, 100% 100%, 36% 100%);
+}
+.mission .row{
+    transform: translateY(-85px);
+}
+.mission .col-md-3{
+    background: var(--bs-bg-color5);
+    width: 30%;
+    transition: all .5s ease-in-out;
+}
+.mission .col-md-3:hover{
+    background: var(--bs-bg-color4);
+}
+.mission .col-md-3:hover 
+.bi-search{
+    background: var(--bs-bg-color1);
+    color: var(--bs-bg-color5);
+}
+.mission .col-md-3:hover > h3,
+.mission .col-md-3:hover > p{
+    color: var(--bs-bg-color5);
+}
+.bi-1{
+    background: var(--bs-bg-color1);
+    padding: 10px 17px;
+    border-radius:50% ;
+}
+.bi-2{
+    background: var(--bs-bg-color2);
+    color: var(--bs-bg-color3);
+    padding: 10px 17px;
+    border-radius:50% ;
+}
+.about,
+.benefits{
+    background: var(--bs-bg-color5);
+}
+.services .row .bi{
+    background: var(--bs-bg-color4);
+    color: var(--bs-bg-color5);
+}
+.services .row .col-md-5{
+    background: var(--bs-bg-color5);
+    transition: all .3s ease-in-out;
+}
+.services .row .col-md-5:hover{
+    background: var(--bs-bg-color4);
+}
+.services .row .col-md-5:hover
+.bi{
+   background: var(--bs-bg-color5);
+   color: var(--bs-bg-color6);
+}
+.services .row .col-md-5:hover
+.col-10{
+    color: var(--bs-bg-color5);
+}
+
+.card-1 h4{
+    color: var(--bs-bg-color1);
+}
+.hero{
+    /* background:linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg); */
+    background:linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../assets/img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.get {
+    /* background:linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/constantin-wenning-idDvA4jPBO8-unsplash.jpg); */
+    background:linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../assets/img/constantin-wenning-idDvA4jPBO8-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer .col-md-3 a{
+    color: var(--bs-bg-color5);
+}
+.footer .col-md-3 a:hover{
+    color: #e09b9d;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) { 
+    .link{
+        color: whitesmoke;
+    }  
+    
+}
+@media only screen and (min-width: 479px) and (max-width: 767px) {
+    .link{
+        color: whitesmoke;
+    } 
+    .mission .col-md-3{
+        width: 100%;
+    }
+    .contact .bi{
+        padding: 0px 9px;
+    }
+    
+}
+@media only screen and (min-width: 320px) and (max-width: 478px) {
+    .contact p{
+        font-size: 14px;
+    }
+    .contact .bi{
+        padding: 0px 9px;
+    }
+    .mission .col-md-3{
+        width: 100%;
+    }
+}
