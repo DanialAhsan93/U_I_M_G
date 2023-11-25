@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/U_I_M_G/static/css/main.8233962e.css",
+    "main.js": "/U_I_M_G/static/js/main.fffbedfc.js",
+    "static/js/787.30238bf3.chunk.js": "/U_I_M_G/static/js/787.30238bf3.chunk.js",
+    "static/media/vasily-koloda-8CqDvPuo_kI-unsplash.jpg": "/U_I_M_G/static/media/vasily-koloda-8CqDvPuo_kI-unsplash.0093a8834777aa706d00.jpg",
+    "static/media/img1.png": "/U_I_M_G/static/media/img1.2eb5a1855ebd6c7437a6.png",
+    "static/media/constantin-wenning-idDvA4jPBO8-unsplash.jpg": "/U_I_M_G/static/media/constantin-wenning-idDvA4jPBO8-unsplash.86d1cb148a2f0718a245.jpg",
+    "static/media/tierra-mallorca-NpTbVOkkom8-unsplash.jpg": "/U_I_M_G/static/media/tierra-mallorca-NpTbVOkkom8-unsplash.1b33cbf9635219b26788.jpg",
+    "static/media/portrait3.jpg": "/U_I_M_G/static/media/portrait3.f0878f205a27f83520f1.jpg",
+    "static/media/portrait2.jpg": "/U_I_M_G/static/media/portrait2.5d0a904ee323b85571cc.jpg",
+    "static/media/portrait1.jpg": "/U_I_M_G/static/media/portrait1.8f912c10936e84fc0e53.jpg",
+    "static/media/logoipsum.svg": "/U_I_M_G/static/media/logoipsum.c87dfb54532ee74d4e5df1874fa21da6.svg",
+    "static/media/logo.svg": "/U_I_M_G/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/U_I_M_G/index.html",
+    "main.8233962e.css.map": "/U_I_M_G/static/css/main.8233962e.css.map",
+    "main.fffbedfc.js.map": "/U_I_M_G/static/js/main.fffbedfc.js.map",
+    "787.30238bf3.chunk.js.map": "/U_I_M_G/static/js/787.30238bf3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8233962e.css",
+    "static/js/main.fffbedfc.js"
+  ]
+}
